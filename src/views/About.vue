@@ -20,8 +20,8 @@ export default {
   },
   //  mixins:[mixinsTest],
   created() {
-    console.log(this.$store)
-    console.log('about------')
+    // console.log(this.$store)
+    // console.log('about------')
   },
   methods: {
     ...mapMutations ({newName:"changeName"}),
